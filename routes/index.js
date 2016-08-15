@@ -1,9 +1,6 @@
 var express = require('express');
 var router = express.Router();
 
-router.get('/navbars', function(req, res, next) {
-    res.render('navbars1', { title: 'Barra de menu'});
-});
 router.get('/content', function(req, res, next) {
     res.render('content', { title: 'ehehe'});
 });
@@ -14,7 +11,7 @@ router.get('/masterpage', function(req, res, next) {
               title: 'page title'
         },
         content: {
-              title: 'post title',
+              title: 'ALUGUEL DE IMOVEIS',
               description: 'description'
         }
     });
