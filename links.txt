@@ -1,0 +1,1 @@
+https://www.airpair.com/javascript/complete-expressjs-nodejs-mongodb-crud-skeleton http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/ http://mongoosejs.com/docs/guide.html http://blog.modulus.io/mongodb-tutorial https://docs.mongodb.com/getting-started/shell/client/ http://www.w3schools.com/bootstrap/bootstrap_navbar.asp 
