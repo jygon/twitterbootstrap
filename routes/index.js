@@ -4,6 +4,8 @@ var router = express.Router();
 router.get('/content', function(req, res, next) {
     res.render('content', { title: 'ehehe'});
 });
+router.get('/layouts', layouts);
+
 router.get('/masterpage', function(req, res, next) {
     console.log('pagina masterpage chamada');
     res.render('masterpage', {
@@ -16,6 +18,12 @@ router.get('/masterpage', function(req, res, next) {
         }
     });
 });
+
+function layouts(req, res, next) {
+     res.render('layout7', {
+     });
+}
+
 exports.findAll = function(req, res) {
     var mongodb = require('mongodb');
     var MongoClient = mongodb.MongoClient;

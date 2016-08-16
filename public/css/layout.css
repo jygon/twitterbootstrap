@@ -1,0 +1,37 @@
+#divHeader{
+	height:10%;
+	border-color:darkgreen;
+	border-style:dashed;
+}
+#divContent{
+	height:80%;
+	border-color:darkgreen;
+	border-style:dashed;
+}
+#divContentLeft{
+	width:50%;
+	height:100%;
+	background-color:lightgreen;
+	float:left;
+}
+#divContentBody{
+	width:50%;
+	height:100%;
+	background-color:lightgray;
+	float:right;
+}
+#imgBody{
+	border-color:white;
+	border-style:solid;
+	margin-top:4%;
+	margin-right:4%;
+	float:right;
+	max-height:90%;
+	max-width:90%;
+	height:auto%;
+}
+#divFooter{
+	height:6%;
+	border-color:darkgreen;
+	border-style:dashed;
+}
