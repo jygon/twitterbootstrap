@@ -20,7 +20,7 @@
 	background-color:lightgray;
 	float:right;
 }
-#imgBody{
+#picBody{
 	border-color:white;
 	border-style:solid;
 	margin-top:4%;
@@ -54,3 +54,24 @@
 	vertical-align:sub;
 	color:white;
 }
+
+/*#imgBody {
+    background-repeat: no-repeat;
+    src: url('public/images/garagem/small.jpg');
+}*/
+/*
+@media only screen and (min-width: 400px) {
+    #imgBody {
+       src: url('images/garagem/medium.jpg');
+    }
+}
+@media only screen and (min-width: 600px) {
+    #imgBody {
+       src: url('images/garagem/large.jpg');
+    }
+}
+@media only screen and (min-width: 800px) {
+    #imgBody {
+       src: url('images/garagem/verylarge.jpg');
+    }
+}*/
