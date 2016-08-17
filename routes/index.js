@@ -19,9 +19,12 @@ router.get('/masterpage', function(req, res, next) {
     });
 });
 
+router.get('/login', loginPage);
+
 function layouts(req, res, next) {
-     res.render('layout7', {
-     });
+    var pagina = req.param('pagina');
+    res.render(pagina, {
+    });
 }
 
 exports.findAll = function(req, res) {
@@ -56,5 +59,9 @@ exports.findAll = function(req, res) {
   });
 };
 router.get('/',  exports.findAll);
+
+function loginPage(req, res, next) {
+    res.render('login');
+}
 
 module.exports = router;

@@ -1,0 +1,27 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" media="all" href="css/layout.css" />
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	{{>header}}
+	<div id="divContent">
+		<div id="divContentLeft">
+			<h3 class="textoDestaque">Cadastre-se</h3>
+			<button id="btnJa" type="button" class="btn btn-xs btn-alert" data-toggle="modal" data-target="#myModal">JÁ</button>
+			<form class="form-horizontal" style="width:80%;">
+				<input type="email" class="form-control" id="inputEmail" placeholder="Seu E-mail"> 
+				<button type="button" class="btn btn-success" id="btnEntrar">Entrar</button>
+			</form>
+		</div>
+		<div id="divContentBody">
+			<img id="imgBody" src="images/garagem/small.jpg" srcset="images/garagem/small.jpg 300w images/garagem/medium.jpg 500w, images/garagem/large.jpg 1000w images/garagem/verylarge.jpg 2000w" />
+		</div>
+	</div>
+	<div id="divFooter">trailer</div>
+</body>
+</html>
+{{>login/popup}}
