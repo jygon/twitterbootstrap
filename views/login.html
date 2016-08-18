@@ -1,35 +1,35 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" media="all" href="css/layout.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/login.css" />
 
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-	{{>header}}
-	<div id="divContent">
+	{{>menubar}}
+	<section id="divContent" style="clear:left">
 		<div id="divContentLeft">
 			<h3 class="textoDestaque">Cadastre-se</h3>
 			<button id="btnJa" type="button" class="btn btn-xs btn-alert" data-toggle="modal" data-target="#myModal">JÁ</button>
 			<form class="form-horizontal" style="width:80%;">
 				<input type="email" class="form-control" id="inputEmail" placeholder="Seu E-mail"> 
-				<button type="button" class="btn btn-success" id="btnEntrar">Entrar</button>
+				<button type="button" class="btn btn-success" id="btnEntrar">Pesquisar</button>
 			</form>
 		</div>
 		<div id="divContentBody">
-			<img id="imgBody" src="images/garagem/small.jpg" srcset="images/garagem/small.jpg 770w, images/garagem/medium.jpg 850w, images/garagem/large.jpg 1050w, images/garagem/verylarge.jpg 1080w" />
-			<!--picture id="picBody">
-			  <source srcset="images/garagem/small.jpg" media="(max-device-width: 770px)">
-			  <source srcset="images/garagem/medium.jpg" media="(max-device-width: 850px)">
-			  <source srcset="images/garagem/large.jpg" media="(max-device-width: 1050px)">
-			  <source srcset="images/garagem/verylarge.jpg" media="(min-device-width:1051px)">
-			  <img src="images/garagem/small.jpg" alt="Garage">
-			</picture-->
+			<picture id="picBody" class="clsFigure">
+				<source media="(min-device-width: 1024px)" srcset="images/garagem/large.jpg 1x, images/garagem/large.jpg 2x">
+				<source media="(min-device-width: 768px)" srcset="images/garagem/medium.jpg 1x, images/garagem/medium.jpg 2x">
+				<source media="(min-device-width: 200px)" srcset="images/garagem/mobile.jpg 1x, images/garagem/mobile.jpg 2x">
+				<source srcset="images/garagem/mobile.jpg 1x, images/garagem/mobile.jpg 2x">
+				<img class="clsFigure" id="imgBody" src="images/garagem/mobile.jpg" srcset="images/garagem/medium.jpg 1.5x, images/garagem/large.jpg 2x" />
+			</picture>
+			<!--<img id="imgBody" src="images/garagem/medium.jpg" />-->
 		</div>
-	</div>
-	<div id="divFooter">trailer</div>
+	</section>
+	<footer id="divFooter">trailer</footer>
 </body>
 </html>
 {{>login/popup}}

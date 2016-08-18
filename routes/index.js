@@ -21,6 +21,8 @@ router.get('/masterpage', function(req, res, next) {
 
 router.get('/login', loginPage);
 
+router.get('/entrada', paginaEntrada);
+
 function layouts(req, res, next) {
     var pagina = req.param('pagina');
     res.render(pagina, {
@@ -62,6 +64,10 @@ router.get('/',  exports.findAll);
 
 function loginPage(req, res, next) {
     res.render('login');
+}
+
+function paginaEntrada(req, res, next) {
+    res.render('entrada');
 }
 
 module.exports = router;

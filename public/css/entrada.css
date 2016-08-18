@@ -1,0 +1,86 @@
+#divHeader{
+	height:5%;
+	border-color:darkgreen;
+	border-style:dashed;
+}
+#divContent{
+	height:80%;
+	border-color:darkgreen;
+	border-style:dashed;
+}
+#divContentLeft{
+	width:50%;
+	height:100%;
+	background-color:lightgreen;
+	float:left;
+}
+#divContentBody{
+	width:50%;
+	height:100%;
+	background-color:lightgray;
+	float:right;
+}
+#imgBody{
+	border-color:white;
+	border-style:solid;
+	margin-top:4%;
+	margin-right:4%;
+	float:right;
+	max-height:90%;
+	max-width:90%;
+	height:auto%;
+}
+#divFooter{
+	height:6%;
+	border-color:darkgreen;
+	border-style:dashed;
+}
+.clsFigure{
+	border-color:white;
+	border-style:solid;
+	margin-top:4%;
+	margin-right:4%;
+	float:right;
+	max-height:90%;
+	max-width:90%;
+	height:auto%;
+}
+#btnJa{
+	font-weight:bolder;
+	font-stretch:expanded;
+	width:8%;
+}
+#inputSearch{
+	width:80%;
+	display:inline-block;
+}
+#btnEntrar{
+	width:10%;
+	position:absolute;
+	float:right;
+}
+/* For mobile phones: */
+[class*="col-"] {
+	#btnPesquisar{
+    	font-size:5px;
+	}
+}
+    /* For desktop: */
+@media only screen and (min-width: 768px) {
+	#btnPesquisar{
+    	font-size: 15px;
+    	color:red;
+    }
+}
+@media (max-width: 600px) {
+	#btnPesquisar{
+    	font-size: 0.5vw;
+    	width:10%;
+    	color:yellow;
+    }
+}
+.textoDestaque{
+	display:inline-block;
+	vertical-align:sub;
+	color:white;
+}

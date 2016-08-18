@@ -1,5 +1,5 @@
 #divHeader{
-	height:10%;
+	height:5%;
 	border-color:darkgreen;
 	border-style:dashed;
 }
@@ -34,4 +34,33 @@
 	height:6%;
 	border-color:darkgreen;
 	border-style:dashed;
+}
+.clsFigure{
+	border-color:white;
+	border-style:solid;
+	margin-top:4%;
+	margin-right:4%;
+	float:right;
+	max-height:90%;
+	max-width:90%;
+	height:auto%;
+}
+#btnJa{
+	font-weight:bolder;
+	font-stretch:expanded;
+	width:8%;
+}
+#inputEmail{
+	width:80%;
+	display:inline-block;
+}
+#btnEntrar{
+	width:10%;
+	position:absolute;
+	float:right;
+}
+.textoDestaque{
+	display:inline-block;
+	vertical-align:sub;
+	color:white;
 }
