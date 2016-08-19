@@ -7,6 +7,8 @@ var bodyParser = require('body-parser');
 var mustacheExpress = require('mustache-express');
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var signin = require('./routes/signin');
+var principal = require('./routes/principal');
 
 var app = express();
 
@@ -32,6 +34,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/signin', signin);
+app.use('/principal', principal);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

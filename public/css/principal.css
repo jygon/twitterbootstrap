@@ -5,8 +5,6 @@
 }
 #divContent{
 	height:80%;
-	/*border-color:darkgreen;
-	border-style:dashed;*/
 }
 #divContentLeft{
 	width:50%;
@@ -32,18 +30,6 @@
 }
 #divFooter{
 	height:6%;
-	/*border-color:darkgreen;
-	border-style:dashed;*/
-}
-.clsFigure{
-	/*border-color:white;
-	border-style:solid;*/
-	margin-top:4%;
-	margin-right:4%;
-	float:right;
-	max-height:90%;
-	max-width:90%;
-	height:auto%;
 }
 #btnJa{
 	font-weight:bolder;
